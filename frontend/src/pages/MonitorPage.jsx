@@ -8,7 +8,7 @@ export default function MonitorPage() {
   const wsRef = useRef(null);
 
   useEffect(() => {
-    // Cleanup on unmount
+    
     return () => {
       if (wsRef.current) {
         wsRef.current.close();
