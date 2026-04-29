@@ -18,7 +18,7 @@ const DatasetSection = ({ datasetName, data }) => {
         <AccuracyTable data={data} />
         <MetricTable title="Precision" metricIndex={0} data={data} />
         <MetricTable title="Recall" metricIndex={1} data={data} />
-        <MetricTable title="F1-Score" metricIndex={2} data={data} />
+        <MetricTable title="F1 Score" metricIndex={2} data={data} />
       </div>
     </div>
   );
@@ -95,10 +95,10 @@ export default function DashboardPage() {
           <div>
             <h2 className="text-4xl font-black text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] mb-2 flex items-center gap-3">
               <Database className="w-10 h-10 text-cyan-400 drop-shadow-[0_0_15px_rgba(34,211,238,0.8)]" /> 
-              Global Performance Matrices
+              Global - Performance Matrices
             </h2>
             <p className="text-indigo-200 text-sm font-medium drop-shadow-md">
-              Real-time deep learning & hybrid optimization evaluation mappings.
+              Real time deep learning & hybrid optimization evaluation mapping.
             </p>
           </div>
           <button 
