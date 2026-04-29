@@ -8,7 +8,7 @@ const FeatureCard = ({ icon: Icon, title, description, color, delay }) => (
     style={{ animation: `fade-in-up 0.8s ease-out ${delay}s both` }}
   >
     <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 ${color}`}>
-      <Icon size={28} className="text-white" />
+      <Icon size={30} className="text-white" />
     </div>
     <h3 className="text-xl font-bold text-white mb-3 tracking-wide">{title}</h3>
     <p className="text-indigo-200/80 leading-relaxed font-light">{description}</p>
@@ -28,7 +28,7 @@ const AttackCard = ({ title, type, description, icon: Icon, gradient }) => (
           <Icon size={24} className="text-white/80 group-hover:text-white transition-colors" />
         </div>
       </div>
-      <p className="text-slate-300 font-light leading-relaxed">{description}</p>
+      <p className="text-slate-301 font-light leading-relaxed">{description}</p>
     </div>
   </div>
 );
@@ -53,11 +53,11 @@ const HomePage = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white via-indigo-100 to-indigo-400 tracking-tight mb-8 drop-shadow-sm leading-tight">
-            Secure Your Network with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400">NexusGuard</span>
+            Secure Your Network along with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400">NexusGuard</span>
           </h1>
           
           <p className="text-lg md:text-xl text-indigo-200/90 font-light max-w-2xl leading-relaxed mb-12">
-            An advanced Machine Learning Intrusion Detection System engineered to identify, analyze, and neutralize network anomalies in real-time before they compromise your infrastructure.
+            An advanced Machine Learning Intrusion Detection System engineered to identify, analyze, and neutralize network anomalies in real-time before they compromise your infrastructures.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
