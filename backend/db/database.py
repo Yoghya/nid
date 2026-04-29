@@ -12,9 +12,9 @@ class DBHandler:
             self.db = self.client["nids_db"]
             self.collection = self.db["training_logs"]
             self.use_mongo = True
-            print("Connected to MongoDB successfully.")
+            print("Connected to MongoDB.")
         except Exception as e:
-            print("MongoDB not found. Falling back to TinyDB (local JSON file).")
+            print("MongoDB not connected. Falling back to TinyDB (local JSON file).")
             from tinydb import TinyDB
             # Ensure db directory exists
             os.makedirs(os.path.dirname(os.path.abspath(__file__)), exist_ok=True)
