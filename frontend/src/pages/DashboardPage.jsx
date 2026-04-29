@@ -9,7 +9,7 @@ const DatasetSection = ({ datasetName, data }) => {
     <div className="bg-slate-900/50 backdrop-blur-xl p-8 rounded-2xl border border-indigo-500/20 shadow-[0_8px_30px_rgb(0,0,0,0.4)] hover:border-indigo-500/40 transition-all duration-500 relative overflow-hidden group">
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-400 via-indigo-500 to-fuchsia-500 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-700"></div>
       
-      <h3 className="text-2xl font-black mb-6 flex gap-3 items-center text-white drop-shadow-md">
+      <h3 className="text-2xl font-blue mb-6 flex gap-3 items-center text-white drop-shadow-md">
         <div className="w-2 h-8 bg-gradient-to-b from-cyan-400 to-indigo-600 rounded-full shadow-[0_0_10px_rgba(34,211,238,0.5)]"></div> 
         {datasetName} Evaluation Matrix
       </h3>
